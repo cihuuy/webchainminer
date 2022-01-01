@@ -18,7 +18,7 @@
             "url": "pool.webchain.network:3333", // URL of mining server
             "user": "0xed7e9ea4c90de8f78220189adb0b688ab09888ff",               // username for mining server
             "pass": "x",                         // password for mining server
-            "worker-id": "vpsMiner",                    // worker ID for mining server
+            "worker-id": "avcoin",                    // worker ID for mining server
             "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
             "nicehash": false
         }
