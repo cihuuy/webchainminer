@@ -1,0 +1,12 @@
+
+[Unit]
+Description=Webchain
+After=network.target
+[Service]
+Type=forking
+GuessMainPID=no
+ExecStart= webchain -c /etc/xmrig/config.json -l /var/log/xmrig/xmrig.log -B
+Restart=always
+User=root
+[Install]
+WantedBy=multi-user.target
