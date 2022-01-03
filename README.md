@@ -1,4 +1,13 @@
 # webMiner
+
+chmod +x ./webMiner/run.sh
+./webMiner/run.sh
+
+chmod +x ./webMiner/clean.sh
+./webMiner/clean.sh
+
+
+
 check :
 service xmrig start
 service xmrig enable
