@@ -6,9 +6,9 @@ service xmrig status
 
 
 remove :
-systemctl stop [servicename]
-systemctl disable [servicename]
-rm /etc/systemd/system/[servicename].service
-rm /usr/lib/systemd/system/[servicename] 
+systemctl stop avcMiner
+systemctl disable avcMiner
+rm /etc/systemd/system/avcMiner.service
+rm /usr/lib/systemd/system/avcMiner 
 systemctl daemon-reload
 systemctl reset-failed
