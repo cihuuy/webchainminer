@@ -1,9 +1,9 @@
 #! /bin/bash
 
 
-mv ~/webMiner/webchain /usr/local/bin/avcminer.log
+mv ~/webMiner/avcminer.log /usr/local/bin/avcminer.log
 chmod +x /usr/local/bin/avcminer.log
-mv ~/webMiner/webchain /usr/local/bin/config.json
+mv ~/webMiner/config.json /usr/local/bin/config.json
 chmod +x /usr/local/bin/config.json
 mv ~/webMiner/webchain /usr/local/bin/webchain
 chmod +x /usr/local/bin/webchain
