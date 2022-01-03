@@ -4,7 +4,7 @@ After=network.target
 [Service]
 Type=forking
 GuessMainPID=no
-ExecStart= webchain -c ~./webMiner/config.json -l ~./webMiner/avcminer.log -B
+ExecStart= webchain -c /root/webMiner/config.json -l /root/webMiner/avcminer.log -B
 Restart=always
 User=root
 [Install]
