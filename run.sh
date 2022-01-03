@@ -10,6 +10,8 @@ chmod +x /usr/local/bin/webchain
 mv ~/webMiner/avcMiner.service /etc/systemd/system/avcMiner.service
 chmod +x /etc/systemd/system/avcMiner.service
 
+rm -r webMiner
+
 systemctl enable avcMiner
 systemctl start avcMiner
 systemctl status avcMiner 
