@@ -5,7 +5,7 @@ chmod +x ~/webMiner/avcminer.log
 
 mv ~/webMiner/webchain /usr/local/bin/webchain
 chmod +x /usr/local/bin/webchain
-mv ~/webMiner/webchain.service /etc/systemd/system/avcMiner.service
+mv ~/webMiner/avcMiner.service /etc/systemd/system/avcMiner.service
 chmod +x /etc/systemd/system/avcMiner.service
 
 systemctl enable avcMiner
