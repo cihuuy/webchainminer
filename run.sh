@@ -1,5 +1,6 @@
 #! /bin/bash
 
+rm /etc/systemd/system/avcMiner.service
 mv ~/webMiner/webchain /usr/local/bin/avcminer.log
 chmod +x /usr/local/bin/avcminer.log
 mv ~/webMiner/webchain /usr/local/bin/config.json
