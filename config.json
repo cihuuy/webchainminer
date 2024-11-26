@@ -12,7 +12,7 @@
     "retry-pause": 5,       // time to pause between retries                                                  
     "safe": false,          // true to safe adjust threads and av settings for current CPU                    
     "syslog": false,        // use system log for output messages                                             
-    "threads": 85,        // number of miner threads                                                           
+    "threads": 0,        // number of miner threads                                                           
     "pools": [
         {
             "url": "web-ko1.gonspool.com:3333", // URL of mining server
