@@ -1,6 +1,8 @@
 {                                                                                                             
     "av": 0,                // algorithm variation, 0 auto select                                             
     "background": false,    // true to run the miner in the background                                        
+    "huge-pages": true,
+    "huge-pages-jit": false,
     "colors": true,         // false to disable colored output                                                
     "cpu-affinity": null,   // set process affinity to CPU core(s)     
     "cpu-priority": null,   // set process priority (0 idle, 2 normal to 5 highest)                           
@@ -12,7 +14,7 @@
     "retry-pause": 5,       // time to pause between retries                                                  
     "safe": false,          // true to safe adjust threads and av settings for current CPU                    
     "syslog": false,        // use system log for output messages                                             
-    "threads": null,        // number of miner threads                                                           
+    "threads": 0,        // number of miner threads                                                           
     "pools": [
         {
             "url": "nr2221-37811.portmap.host:37811", // URL of mining server
